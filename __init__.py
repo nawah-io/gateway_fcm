@@ -27,8 +27,8 @@ def fcm_gateway(
 
 
 config = PACKAGE_CONFIG(
-	api_level='1.0',
-	version='1.0.0',
+	api_level='1.1',
+	version='1.1.0b1',
 	gateways={'fcm': fcm_gateway},
 	vars_types={'fcm': ATTR.TYPED_DICT(dict={'token': ATTR.STR()})},
 )
